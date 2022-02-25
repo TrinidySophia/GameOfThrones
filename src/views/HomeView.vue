@@ -7,7 +7,6 @@
   </div>
   
   </div>
-  
 </template>
 
 <script>
@@ -58,5 +57,6 @@ position: absolute;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-top: 4rem;
 }
 </style>

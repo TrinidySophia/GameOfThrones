@@ -1,6 +1,7 @@
 <template>
 <header>
-    <div class="tronos">
+    <div class="navbar">
+        <div class="tronos">
         <router-link to="/">
             <h2>TutiOfThrones</h2>
         </router-link>
@@ -10,6 +11,7 @@
         <router-link to="/About">
             <h3>About</h3>
         </router-link>
+    </div>
     </div>
 
 </header>
@@ -24,10 +26,25 @@ export default {
 
 <style scoped>
 header{
-    display: flex;
-    background:var(--pretoNavbar) ;
-    justify-content: space-between;
-    padding: 1rem;
+    background: var(--pretoNavbar);
+    position: fixed;
+    width: 100%;
 }
 
+.navbar{
+    width: 80%;
+    height: 60px;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+h2{
+    color: var(--amareloQueimado);
+}
+
+h3{
+    color: #fff;
+}
 </style>

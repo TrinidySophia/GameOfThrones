@@ -1,8 +1,6 @@
 <template>
-  <div id="app">
-    <nav>
+  <div>
 <Navbar/>
-    </nav>
     <router-view/>
   </div>
 </template>
@@ -19,6 +17,8 @@ export default {
   --quasePreto: #181818;
   --quaseBranco:#f0f0f0;
   --pretoNavbar: #a5a5a536;
+  --amareloQueimado: #E9B224;
+  --pretoTransparente: rgba(0, 0, 0, 0.527);
 }
 
 @import url(https://fonts.google.com/specimen/Yatra+One?query=Yatra+One);
@@ -33,6 +33,9 @@ nav{
   z-index: 999;
 }
 
-
+a{
+  text-decoration: none;
+  outline: none;
+}
 
 </style>
